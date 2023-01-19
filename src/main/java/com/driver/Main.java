@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
         Product p = new Product();
-        System.out.println(p.product(4,5));
-        System.out.println(p.product(4,5,6));
-        System.out.println(p.product(4.0,5.0));
+
+        p.product(4,5);
+        p.product(4,5,6);
+        p.product(4.0,5.0);
 
     }
 }
